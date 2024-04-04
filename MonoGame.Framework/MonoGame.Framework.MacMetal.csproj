@@ -26,6 +26,8 @@
 
   <ItemGroup>
     <Compile Include="Platform\Graphics\GraphicsDevice.Metal.cs" />
+    <Compile Include="Platform\Graphics\Texture2D.Metal.cs" />
+    <Compile Include="Platform\Graphics\Texture3D.Metal.cs" />
   </ItemGroup>
 
 </Project>
