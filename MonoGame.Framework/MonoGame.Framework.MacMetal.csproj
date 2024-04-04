@@ -11,4 +11,21 @@
     <PackageReference Include="SharpMetal" Version="1.0.0-preview12" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="bin\**\*" />
+    <Compile Remove="obj\**\*" />
+    <Compile Remove="Platform\**\*" />
+    <Compile Remove="Properties\**\*" />
+    <Compile Remove="Utilities\System.Numerics.Vectors\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Platform\**\*" />
+    <None Remove="Utilities\System.Numerics.Vectors\**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Platform\Graphics\GraphicsDevice.Metal.cs" />
+  </ItemGroup>
+
 </Project>
