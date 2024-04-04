@@ -1,0 +1,8 @@
+<Project>
+
+  <PropertyGroup>
+    <MonoGamePlatform>Mac</MonoGamePlatform>
+  </PropertyGroup>
+
+</Project>
+
