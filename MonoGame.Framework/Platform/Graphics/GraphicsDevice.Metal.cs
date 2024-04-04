@@ -17,8 +17,6 @@ namespace Microsoft.Xna.Framework.Graphics
 
         }
 
-
-
         private void PlatformClear(ClearOptions options, Vector4 color, float depth, int stencil)
         {
 
